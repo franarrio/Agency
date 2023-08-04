@@ -2,6 +2,7 @@ import Link from "next/link";
 import { useState } from "react";
 import Accordion from "../components/elements/Accordion";
 import Layout from "../components/layout/Layout";
+import Image from "next/image";
 
 function Index3() {
   // Open modal
@@ -52,9 +53,12 @@ function Index3() {
               <div className="col-lg-10">
                 <div className="box-image">
                   <a className="popup-youtube btn-play-video btn-play-middle" onClick={openModal}></a>
-                  <img
+                  <Image
+                    
+                    width="1076"
+                    height="520"
                     className="img-responsive bdrd-16"
-                    src="assets/imgs/page/homepage3/img-banner-video.png"
+                    src="/assets/imgs/page/homepage3/img-banner-video.png"
                     alt="Agon"
                   />
                 </div>
@@ -84,7 +88,7 @@ function Index3() {
                 <div className="list-icons mt-50">
                   <div className="item-icon">
                     <span className="icon-left">
-                      <img src="/assets/imgs/page/homepage2/icon-acquis.svg" alt="Agon" />
+                      <Image  width="300" height="200" src="/assets/imgs/page/homepage2/icon-acquis.svg" alt="Agon" />
                     </span>
                     <h4 className="text-heading-4">1. SuiteCommerce</h4>
                     <p className="text-body-text color-gray-600 mt-15">
@@ -98,7 +102,7 @@ function Index3() {
                 <div className="list-icons mt-50">
                   <div className="item-icon">
                     <span className="icon-left">
-                      <img src="/assets/imgs/page/homepage2/icon-active.svg" alt="Agon" />
+                      <Image  width="300" height="200" src="/assets/imgs/page/homepage2/icon-active.svg" alt="Agon" />
                     </span>
                     <h4 className="text-heading-4">2. ERP automation</h4>
                     <p className="text-body-text color-gray-600 mt-15">
@@ -112,7 +116,7 @@ function Index3() {
                 <div className="list-icons mt-50">
                   <div className="item-icon">
                     <span className="icon-left">
-                      <img src="/assets/imgs/page/homepage2/icon-retent.svg" alt="Agon" />
+                      <Image  width="300" height="200" src="/assets/imgs/page/homepage2/icon-retent.svg" alt="Agon" />
                     </span>
                     <h4 className="text-heading-4">3. Boost your business</h4>
                     <p className="text-body-text color-gray-600 mt-15">
@@ -129,9 +133,12 @@ function Index3() {
           <div className="container mt-120">
             <div className="row">
               <div className="col-lg-6 col-sm-12 block-img-we-do">
-                <img
+                <Image
+                  
+                  width={618}
+                  height={715}
                   className="bdrd-16 img-responsive"
-                  src="assets/imgs/page/homepage3/img-2.png"
+                  src="/assets/imgs/page/homepage3/img-2.png"
                   alt="Agon"
                 />
               </div>
@@ -203,7 +210,7 @@ function Index3() {
                       </p>
                       <div className="box-img-user">
                         <div className="img-user img-user-round">
-                          <img src="/assets/imgs/page/homepage2/user-1.png" alt="Agon" />
+                          <Image  width="300" height="200" src="/assets/imgs/page/homepage2/user-1.png" alt="Agon" />
                         </div>
                         <h4 className="text-body-lead color-gray-900 mb-5">Jane Cooper</h4>
                         <p className="text-body-text-md">Biffco Enterprises Ltd.</p>
@@ -219,7 +226,7 @@ function Index3() {
                       </p>
                       <div className="box-img-user">
                         <div className="img-user img-user-round">
-                          <img src="/assets/imgs/page/homepage2/user-2.png" alt="Agon" />
+                          <Image  width="300" height="200" src="/assets/imgs/page/homepage2/user-2.png" alt="Agon" />
                         </div>
                         <h4 className="text-body-lead color-gray-900 mb-5">Wade Warren</h4>
                         <p className="text-body-text-md">Krusty Krab</p>
@@ -235,7 +242,7 @@ function Index3() {
                       </p>
                       <div className="box-img-user">
                         <div className="img-user img-user-round">
-                          <img src="/assets/imgs/page/homepage2/user-3.png" alt="Agon" />
+                          <Image  width="300" height="200" src="/assets/imgs/page/homepage2/user-3.png" alt="Agon" />
                         </div>
                         <h4 className="text-body-lead color-gray-900 mb-5">Leslie Alexander</h4>
                         <p className="text-body-text-md">Biffco Enterprises Ltd.</p>
@@ -251,7 +258,7 @@ function Index3() {
                       </p>
                       <div className="box-img-user">
                         <div className="img-user img-user-round">
-                          <img src="/assets/imgs/page/homepage2/user-4.png" alt="Agon" />
+                          <Image  width="300" height="200" src="/assets/imgs/page/homepage2/user-4.png" alt="Agon" />
                         </div>
                         <h4 className="text-body-lead color-gray-900 mb-5">Jenny Wilson</h4>
                         <p className="text-body-text-md">Soylent Corp</p>
@@ -326,7 +333,7 @@ function Index3() {
                   <div className="grid-4-img">
                     <Link href="/blog-single" legacyBehavior>
                       <a>
-                        <img src="/assets/imgs/page/homepage1/img-news-1.png" alt="Agon" />
+                        <Image  width="300" height="200" src="/assets/imgs/page/homepage1/img-news-1.png" alt="Agon" />
                       </a>
                     </Link>
                   </div>
@@ -342,7 +349,7 @@ function Index3() {
                   <div className="grid-4-img">
                     <Link href="/blog-single" legacyBehavior>
                       <a>
-                        <img src="/assets/imgs/page/homepage1/img-news-2.png" alt="Agon" />
+                        <Image  width="300" height="200" src="/assets/imgs/page/homepage1/img-news-2.png" alt="Agon" />
                       </a>
                     </Link>
                   </div>
@@ -358,7 +365,7 @@ function Index3() {
                   <div className="grid-4-img color-bg-4">
                     <Link href="/blog-single" legacyBehavior>
                       <a>
-                        <img src="/assets/imgs/page/homepage1/img-news-3.png" alt="Agon" />
+                        <Image  width="300" height="200" src="/assets/imgs/page/homepage1/img-news-3.png" alt="Agon" />
                       </a>
                     </Link>
                   </div>
@@ -374,7 +381,7 @@ function Index3() {
                   <div className="grid-4-img">
                     <Link href="/blog-single" legacyBehavior>
                       <a>
-                        <img src="/assets/imgs/page/homepage1/img-news-4.png" alt="Agon" />
+                        <Image  width="300" height="200" src="/assets/imgs/page/homepage1/img-news-4.png" alt="Agon" />
                       </a>
                     </Link>
                   </div>
@@ -390,7 +397,7 @@ function Index3() {
                   <div className="grid-4-img">
                     <Link href="/blog-single" legacyBehavior>
                       <a>
-                        <img src="/assets/imgs/page/homepage1/img-news-5.png" alt="Agon" />
+                        <Image  width="300" height="200" src="/assets/imgs/page/homepage1/img-news-5.png" alt="Agon" />
                       </a>
                     </Link>
                   </div>
@@ -406,7 +413,7 @@ function Index3() {
                   <div className="grid-4-img color-bg-4">
                     <Link href="/blog-single" legacyBehavior>
                       <a>
-                        <img src="/assets/imgs/page/homepage1/img-news-6.png" alt="Agon" />
+                        <Image  width="300" height="200" src="/assets/imgs/page/homepage1/img-news-6.png" alt="Agon" />
                       </a>
                     </Link>
                   </div>
@@ -505,11 +512,11 @@ function Index3() {
                     </div>
                     <div className="col-lg-7 col-md-5 mt-30 mt-lg-0 mt-md-30 mt-sm-30 position-relative text-end">
                       <div className="block-chart shape-1">
-                        <img src="/assets/imgs/template/chart.png" alt="Agon" />
+                        <Image  width="300" height="200" src="/assets/imgs/template/chart.png" alt="Agon" />
                       </div>
-                      <img
+                      <Image  width="322" height="400"
                         className="img-responsive img-newsletter"
-                        src="assets/imgs/template/img-newsletter.png"
+                        src="/assets/imgs/template/img-newsletter.png"
                         alt="Agon"
                       />
                     </div>
