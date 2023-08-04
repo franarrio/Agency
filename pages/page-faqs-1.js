@@ -82,7 +82,7 @@ function Faq1() {
                                         </div>
                                     </div>
                                     <div className="mt-60">
-                                        <Link href="/page-contact" legacyBehavior><a className="btn btn-black icon-arrow-right-white">Contact Us</a></Link>
+                                        <Link href="/contact-us" legacyBehavior><a className="btn btn-black icon-arrow-right-white">Contact Us</a></Link>
 
                                         <Link href="/page-login" legacyBehavior><a className="btn btn-link text-heading-6">Support Center</a></Link>
                                     </div>

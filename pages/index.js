@@ -20,22 +20,22 @@ function Index3() {
           <div className="banner-hero banner-3">
             <div className="container">
               <div className="text-center">
-                <span className="tag-1 bg-6 color-green-900">Digital Marketing Agency</span>
+                <span className="tag-1 bg-6 color-green-900">Software Solution Agency</span>
                 <h1 className="text-display-2 color-gray-900 mt-40">
-                  Advanced analytics to grow
+                  Advanced development to grow
                   <br className="d-lg-block d-none" />
                   your business
                 </h1>
                 <div className="text-body-lead-large color-gray-500 mt-40">
-                  Get a website to be found on the first page of Google to
+                  Spend more time on your business and less on repetitive tasks.
                   <br className="d-lg-block d-none" />
-                  avoid missing out on potential visitors and sales.
+                  Give your customers an amazing experience.
                 </div>
                 <div className="mt-50">
-                  <Link href="/page-about-1" legacyBehavior>
-                    <a className="btn btn-black icon-arrow-right-white mb-15">Start free trial</a>
+                  <Link href="/contact-us" legacyBehavior>
+                    <a className="btn btn-black icon-arrow-right-white mb-15">Book a meeting</a>
                   </Link>
-                  <Link href="/page-about-2" legacyBehavior>
+                  <Link href="/about" legacyBehavior>
                     <a className="btn btn-default icon-arrow-right color-gray-900 ml-20 btn-mb mb-15">
                       Learn more
                     </a>
@@ -86,7 +86,7 @@ function Index3() {
                     <span className="icon-left">
                       <img src="/assets/imgs/page/homepage2/icon-acquis.svg" alt="Agon" />
                     </span>
-                    <h4 className="text-heading-4">1. Acquisition</h4>
+                    <h4 className="text-heading-4">1. SuiteCommerce</h4>
                     <p className="text-body-text color-gray-600 mt-15">
                       Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
                       mollit laborum — semper quis lectus nulla.
@@ -100,7 +100,7 @@ function Index3() {
                     <span className="icon-left">
                       <img src="/assets/imgs/page/homepage2/icon-active.svg" alt="Agon" />
                     </span>
-                    <h4 className="text-heading-4">2. Activation</h4>
+                    <h4 className="text-heading-4">2. ERP automation</h4>
                     <p className="text-body-text color-gray-600 mt-15">
                       Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
                       mollit laborum — semper quis lectus nulla.
@@ -114,7 +114,7 @@ function Index3() {
                     <span className="icon-left">
                       <img src="/assets/imgs/page/homepage2/icon-retent.svg" alt="Agon" />
                     </span>
-                    <h4 className="text-heading-4">3. Retention</h4>
+                    <h4 className="text-heading-4">3. Boost your business</h4>
                     <p className="text-body-text color-gray-600 mt-15">
                       Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
                       mollit laborum — semper quis lectus nulla.
@@ -187,7 +187,7 @@ function Index3() {
                   blandit
                 </p>
                 <div className="mt-40">
-                  <Link href="/page-contact" legacyBehavior>
+                  <Link href="/contact-us" legacyBehavior>
                     <a className="btn btn-default btn-white icon-arrow-right">Learn More</a>
                   </Link>
                 </div>
@@ -286,7 +286,7 @@ function Index3() {
                   </div>
                 </div>
                 <div className="mt-60">
-                  <Link href="/page-contact" legacyBehavior>
+                  <Link href="/contact-us" legacyBehavior>
                     <a className="btn btn-black icon-arrow-right-white">Contact Us</a>
                   </Link>
                   <Link href="/page-login" legacyBehavior>

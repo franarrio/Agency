@@ -146,7 +146,7 @@ const Sidebar = ({ openClass }) => {
                       </Link>
                       <ul className={isActive.key == 4 ? "sub-menu d-block" : "sub-menu d-none"}>
                         <li>
-                          <Link href="/page-contact" legacyBehavior>
+                          <Link href="/contact-us" legacyBehavior>
                             <a>Contact</a>
                           </Link>
                         </li>
